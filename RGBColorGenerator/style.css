@@ -1,0 +1,26 @@
+body {
+    display: grid;
+    justify-items: center;
+}
+
+.color-container {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+button {
+    width: max-content;
+    padding: .5rem;
+}
+
+.copyColor-btn {
+    color: white;
+    background-color: green;
+    border: none;
+    margin-top: 1rem;
+}

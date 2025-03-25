@@ -1,0 +1,14 @@
+body {
+    display: grid;
+    justify-items: center;
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.button {
+    font-size: 1.3rem;
+    cursor: pointer
+}
