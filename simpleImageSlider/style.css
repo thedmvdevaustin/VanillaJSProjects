@@ -1,0 +1,69 @@
+/* 1. Use a more-intuitive box-sizing model */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+  
+/* 2. Remove default margin */
+* {
+    margin: 0;
+}
+  
+/* 6. Improve media defaults */
+img, picture {
+    display: block;
+    max-width: 100%;
+}
+  
+/* 7. Inherit fonts for form controls */
+button {
+    font: inherit;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.imageSlider {
+    width: 80%;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider {
+    display: flex;
+    height: auto;
+    transition: transform 1s ease;
+}
+
+img {
+    /* object-fit: cover; */
+    width: 750px;
+    /* border-radius: 1rem; */
+    /* display: none; */
+}
+
+.button {
+    position: absolute;
+    font-size: 2rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.701);
+    padding: 1rem;
+    top: 50%;
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+.button:hover{
+    filter: brightness(80%);
+}
+
+.button:active{
+    filter: brightness(60%);
+}
+
+.imageSlider__rightBtn {
+    right: 0;
+}
