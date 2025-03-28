@@ -1,0 +1,117 @@
+/* CSS RESET  */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+  
+* {
+    margin: 0;
+}
+  
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+  
+button {
+    font: inherit;
+}
+
+/* BUTTON STYLES  */
+button {
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+button:hover {
+    filter:brightness(90%);
+}
+
+button:active {
+    filter:brightness(70%);
+}
+
+/* GENERAL STYLES  */
+
+body {
+    background-color: rgba(0, 0, 0, 0.54);
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.website {
+    width: 70%;
+    padding: 1rem;
+    border-radius: .5rem;
+    box-shadow: 2px 2px 9px 0 rgba(0, 0, 0, 0.54);
+    background-color: white;
+    display: grid;
+    gap: 1rem;
+}
+
+.website__title {
+    font-size: 2rem;
+    text-align: center
+}
+
+.website__items {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    justify-content: space-between;
+}
+
+.website__item {
+    background-color: rgba(170, 170, 170, 0.471);
+    padding: .5rem 1rem;
+    border-radius: .2rem;
+}
+
+.website__item-details {
+    display: grid;
+    gap: .75rem;
+    justify-items: center;
+}
+
+.website__item-btn {
+    background-color: green;
+    border-radius: .35rem;
+    padding: .35rem .75rem;
+}
+
+.website__cart-title {
+    text-align: center;
+}
+
+.website__cart {
+    display: grid;
+    gap: 1rem;
+    background-color:rgba(170, 170, 170, 0.121);
+    padding: 1rem;
+    border-radius: .2rem;
+}
+
+.website__cart-items {
+    padding-left: 0;
+    display: grid;
+    gap: 1rem;
+}
+
+
+.website__cart-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.website__cart-itemBtn {
+    background-color: rgba(255, 0, 0, 0.849);
+    border-radius: .2rem;
+}
+
+.website__cart-btn {
+    width: max-content;
+    padding: .35rem .85rem;
+    background-color: rgb(21, 133, 241);
+    border-radius: .2rem;
+}
